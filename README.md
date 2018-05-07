@@ -18,6 +18,7 @@ Basic examples hopefully coming soon, including:
   Omaha
   
 Basic usage example:
+//just paste this code into a button_click event to try it...
 
 //only create a PokerHandRankingTable once at application startup
 //and pass a reference to the hands
