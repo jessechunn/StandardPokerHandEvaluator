@@ -57,6 +57,7 @@ hands.Add(new Hand(deck.Pop(), deck.Pop(), deck.Pop(), deck.Pop(), deck.Pop(), r
 //and then using LINQ is one easy way to sort the hands, like this...
 
 hands = hands.OrderBy(h => h.Rank).ToList<Hand>();
+  
 MessageBox.Show(hands[0].ToString(Hand.HandToStringFormatEnum.HandDescription) + " is the winning hand.");
 
 //hands also have ==, !=, >,<,>=,<= operators overloaded so this works:
