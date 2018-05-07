@@ -58,4 +58,6 @@ if (hands[0] == hands[1])
     MessageBox.Show(hands[0].ToString(Hand.HandToStringFormatEnum.HandDescription) + 
           " ties with " + hands[1].ToString(Hand.HandToStringFormatEnum.HandDescription));
 }
+//equality is based on rank, not cards/suits/etc... so, for example, two Jack high straights
+//would be equal even though the cards have different suits.
 ```
