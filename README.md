@@ -1,5 +1,5 @@
 # StandardPokerHandEvaluator
-Fast poker hand evaluation in C#
+Ultra-Fast poker hand evaluation in C#
 
 The Standard Poker Hand Evaluator generates an internal list of every possible 5 card poker hand rank (there are 7,462 of them), and associates each of those hands with an ordered list of prime numbers which can be looked up by multiplying the prime numbers associated with each of the 5 cards in the hand. Each possible hand also has an associated rank which is used to compare hands to determine winners and losers in a given round.
 
