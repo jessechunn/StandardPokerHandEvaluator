@@ -65,5 +65,5 @@ MessageBox.Show(hands[0].ToString(Hand.HandToStringFormatEnum.HandDescription) +
 if (hands[0] == hands[1]) 
 {
     MessageBox.Show(hands[0].ToString(Hand.HandToStringFormatEnum.HandDescription) + 
-          " ties with " + hands[0].ToString(Hand.HandToStringFormatEnum.HandDescription));
+          " ties with " + hands[1].ToString(Hand.HandToStringFormatEnum.HandDescription));
 }
