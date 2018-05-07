@@ -26,6 +26,7 @@ PokerHandRankingTable rankingTable = new PokerHandRankingTable();
 //create decks as often as needed.
 //Passing in "true" means shuffle, otherwise
 //cards will be in order like a new deck of cards.
+
 Deck deck = new Deck(true);
 
 //you can create a list of hands if you want
