@@ -58,6 +58,7 @@ hands = hands.OrderBy(h => h.Rank).ToList<Hand>();
 MessageBox.Show(hands[0].ToString(Hand.HandToStringFormatEnum.HandDescription) + " is the winning hand.");
 
 //hands also have ==, !=, >,<,>=,<= operators overloaded so this works:
+
 if (hands[0] == hands[1])
 {
     MessageBox.Show(hands[0].ToString(Hand.HandToStringFormatEnum.HandDescription) + 
