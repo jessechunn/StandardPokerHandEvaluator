@@ -29,6 +29,7 @@ PokerHandRankingTable rankingTable = new PokerHandRankingTable();
 Deck deck = new Deck(true);
 
 //you can create a list of hands if you want
+
 List<Hand> hands = new List<Hand>();
 
 hands.Add(new Hand(deck.Pop(), deck.Pop(), deck.Pop(), deck.Pop(), deck.Pop(), rankingTable));
