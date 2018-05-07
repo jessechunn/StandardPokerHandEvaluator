@@ -22,7 +22,10 @@ Basic usage example:
 //just paste this code into a button_click event to try it...
 
 //only create a PokerHandRankingTable once at application startup
-//and pass a reference to the hands
+//and pass a reference to the hands. It would be best to declare
+//the rankingTable variable at the module level, especially
+//if you intend to do multiple iterations over time and speed
+//is important.
 PokerHandRankingTable rankingTable = new PokerHandRankingTable();
 
 //create decks as often as needed.
