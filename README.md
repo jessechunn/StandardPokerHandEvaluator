@@ -59,7 +59,7 @@ MessageBox.Show(hands[0].ToString(Hand.HandToStringFormatEnum.HandDescription) +
 
 //hands also have ==, !=, >,<,>=,<= operators overloaded so this works:
 
-if (hands[0] == hands[1])
+if (hands[0] == hands[1]) 
 {
     MessageBox.Show(hands[0].ToString(Hand.HandToStringFormatEnum.HandDescription) + 
           " ties with " + hands[0].ToString(Hand.HandToStringFormatEnum.HandDescription));
