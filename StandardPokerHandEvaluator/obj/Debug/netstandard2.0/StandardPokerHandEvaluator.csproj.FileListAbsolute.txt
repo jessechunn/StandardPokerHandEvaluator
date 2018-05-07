@@ -1,0 +1,8 @@
+D:\OneDrive\Local\VS\VS2017\StandardPokerHandEvaluator\StandardPokerHandEvaluator\obj\Debug\netstandard2.0\StandardPokerHandEvaluator.csproj.CoreCompileInputs.cache
+D:\OneDrive\Local\VS\VS2017\StandardPokerHandEvaluator\StandardPokerHandEvaluator\obj\Debug\netstandard2.0\StandardPokerHandEvaluator.AssemblyInfoInputs.cache
+D:\OneDrive\Local\VS\VS2017\StandardPokerHandEvaluator\StandardPokerHandEvaluator\obj\Debug\netstandard2.0\StandardPokerHandEvaluator.AssemblyInfo.cs
+D:\OneDrive\Local\VS\VS2017\StandardPokerHandEvaluator\StandardPokerHandEvaluator\bin\Debug\netstandard2.0\StandardPokerHandEvaluator.deps.json
+D:\OneDrive\Local\VS\VS2017\StandardPokerHandEvaluator\StandardPokerHandEvaluator\bin\Debug\netstandard2.0\StandardPokerHandEvaluator.dll
+D:\OneDrive\Local\VS\VS2017\StandardPokerHandEvaluator\StandardPokerHandEvaluator\bin\Debug\netstandard2.0\StandardPokerHandEvaluator.pdb
+D:\OneDrive\Local\VS\VS2017\StandardPokerHandEvaluator\StandardPokerHandEvaluator\obj\Debug\netstandard2.0\StandardPokerHandEvaluator.dll
+D:\OneDrive\Local\VS\VS2017\StandardPokerHandEvaluator\StandardPokerHandEvaluator\obj\Debug\netstandard2.0\StandardPokerHandEvaluator.pdb
