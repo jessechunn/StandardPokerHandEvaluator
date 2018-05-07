@@ -18,6 +18,7 @@ Basic examples hopefully coming soon, including:
   Omaha
   
 Basic usage example:
+```
 //just paste this code into a button_click event to try it...
 
 //only create a PokerHandRankingTable once at application startup
@@ -68,3 +69,4 @@ if (hands[0] == hands[1])
     MessageBox.Show(hands[0].ToString(Hand.HandToStringFormatEnum.HandDescription) + 
           " ties with " + hands[1].ToString(Hand.HandToStringFormatEnum.HandDescription));
 }
+```
