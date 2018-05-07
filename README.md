@@ -28,7 +28,6 @@ PokerHandRankingTable rankingTable = new PokerHandRankingTable();
 //create decks as often as needed.
 //Passing in "true" means shuffle, otherwise
 //cards will be in order like a new deck of cards.
-
 Deck deck = new Deck(true);
 
 //you can create a list of hands if you want
@@ -36,34 +35,22 @@ Deck deck = new Deck(true);
 List<Hand> hands = new List<Hand>();
 
 hands.Add(new Hand(deck.Pop(), deck.Pop(), deck.Pop(), deck.Pop(), deck.Pop(), rankingTable));
-
 hands.Add(new Hand(deck.Pop(), deck.Pop(), deck.Pop(), deck.Pop(), deck.Pop(), rankingTable));
-
 hands.Add(new Hand(deck.Pop(), deck.Pop(), deck.Pop(), deck.Pop(), deck.Pop(), rankingTable));
-
 hands.Add(new Hand(deck.Pop(), deck.Pop(), deck.Pop(), deck.Pop(), deck.Pop(), rankingTable));
-
 hands.Add(new Hand(deck.Pop(), deck.Pop(), deck.Pop(), deck.Pop(), deck.Pop(), rankingTable));
-
 hands.Add(new Hand(deck.Pop(), deck.Pop(), deck.Pop(), deck.Pop(), deck.Pop(), rankingTable));
-
 hands.Add(new Hand(deck.Pop(), deck.Pop(), deck.Pop(), deck.Pop(), deck.Pop(), rankingTable));
-
 hands.Add(new Hand(deck.Pop(), deck.Pop(), deck.Pop(), deck.Pop(), deck.Pop(), rankingTable));
-
 hands.Add(new Hand(deck.Pop(), deck.Pop(), deck.Pop(), deck.Pop(), deck.Pop(), rankingTable));
-
 hands.Add(new Hand(deck.Pop(), deck.Pop(), deck.Pop(), deck.Pop(), deck.Pop(), rankingTable));
-
 
 //and then using LINQ is one easy way to sort the hands, like this...
-
 hands = hands.OrderBy(h => h.Rank).ToList<Hand>();
   
 MessageBox.Show(hands[0].ToString(Hand.HandToStringFormatEnum.HandDescription) + " is the winning hand.");
 
 //hands also have ==, !=, >,<,>=,<= operators overloaded so this works:
-
 if (hands[0] == hands[1]) 
 {
     MessageBox.Show(hands[0].ToString(Hand.HandToStringFormatEnum.HandDescription) + 
